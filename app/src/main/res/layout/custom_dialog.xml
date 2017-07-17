@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:layout_alignParentBottom="true">
+    <RelativeLayout
+        android:id="@+id/quiz_bt_layoutu"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    <Button
+        android:id="@+id/quiz_dialog_costumn_ok"
+        android:layout_width="match_parent"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="3"
+        android:text="Submit"
+        android:textSize="30sp"/>
+    </RelativeLayout>
+    <RadioGroup
+        android:id="@+id/quiz_bt_layoutut"
+        android:layout_above="@id/quiz_bt_layoutu"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <RadioButton
+            android:id="@+id/quiz_radio1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="music 1"
+            android:layout_marginLeft="15dp"
+            android:textSize="24dp"/>
+        <RadioButton
+            android:id="@+id/quiz_radio2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="music 2"
+            android:layout_marginLeft="15dp"
+            android:textSize="24dp"/>
+        <RadioButton
+            android:id="@+id/quiz_radio3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="music 3"
+            android:layout_marginLeft="15dp"
+            android:textSize="24dp"/>
+        <RadioButton
+            android:id="@+id/quiz_radio4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="music 4"
+            android:layout_marginLeft="15dp"
+            android:textSize="24dp"/>
+        </RadioGroup>
+
+</RelativeLayout>

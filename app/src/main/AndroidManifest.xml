@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.gsu.httpcs.bricksbreakerapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Level1Activity" />
+        <activity android:name=".Level2Activity" />
+        <activity android:name=".Level3Activity" />
+        <activity android:name=".resourcesView.MyHandlerClass"/>
+
+        <service android:name=".broadcastandservice.BrickBreakerService" />
+
+        <activity android:name=".Level4Activity" />
+        <activity android:name=".Level5Activity"></activity>
+    </application>
+
+</manifest>

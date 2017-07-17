@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.gsu.httpcs.bricksbreakerapplication.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/playing_button"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="PLAY MUSIC"/>
+        <Button
+            android:id="@+id/music_button"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="CHOOSE MUSIC"/>
+    </LinearLayout>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/activity_fragment_pager_tablayout"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="60dp"></android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_advance_fragment_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        android:layout_above="@id/activity_fragment_pager_tablayout"
+        tools:context="edu.gsu.httpcs.thakur2017summer.AdvanceViewPagerActivity">
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

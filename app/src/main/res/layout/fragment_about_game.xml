@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.gsu.httpcs.bricksbreakerapplication.fragments.AboutGameFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:background="@drawable/brick_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:padding="50dp"
+        android:text="@string/my_multiline_textview"
+        android:textColor="#037201"
+        android:textSize="16sp" />
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.gsu.httpcs.bricksbreakerapplication.fragments.HomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="46sp"
+        android:padding="10dp"
+        android:background="@drawable/brick_breaker_background"
+        android:gravity="center"
+        android:textColor="#1435ff"
+        android:text="Bricks Beeaker game" />
+
+</FrameLayout>

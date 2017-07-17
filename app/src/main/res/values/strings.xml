@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">BricksBreakerApplication</string>
+    <string name="my_multiline_textview">
+        <font color="GREEN" size="30">About Bricks Breaker</font>\n\n
+        <font size="20">Brick Breaker is Block-breaking game in which the player must smash
+        a wall of bricks by deflecting a bouncing ball with a paddle.
+        The paddle may move horizontally and is controlled with the BlackBerry\'s
+        trackwheel, the computer\'s mouse or the touch of a finger (in the
+        case of touchscreen). When all the bricks have been destroyed,
+        the player advances to a new level. There are 34 levels. There are many
+        versions of brick breaker, some in which you can shoot flaming fireballs
+        or play with more than one ball if the player gets a power up.\n\n
+            The premise of Brick Breaker, like the million other Breakout copy-cats
+            for those who have been living in a cave for the last 35-plus years, is
+            that bricks are arranged in a pattern at the top of the screen. The player
+            controls a paddle that can move left and right. Players start with three lives.\n\n
+            The game begins when the player launches a ball towards the bricks. Each time
+            the ball hits a brick it breaks the brick and deflects away. If the ball
+            deflects back towards the paddle, the player must maneuver the paddle so
+            that the ball will deflect back towards the bricks. If the player lets the
+            ball fall past the paddle, a life is lost.\n\n
+            Bricks can take one or more hits to break, depending on the type of brick,
+            as indicated by its color. Silver bricks are obstacles, and the ball cannot
+            break them. Each direct hit to a brick is worth 10 points. The ball speeds
+            up periodically as the game proceeds, however after a certain speed, the
+            ball returns to its original slow speed. If the paddle and the ball strike
+            each other a certain number of times, all bricks on the board shift down,
+            although once the board shifts a certain distance down, it ceases to shift
+            down further.Occasionally, when a ball breaks a brick, a bonus pill will
+            fall down vertically. If the player catches a pill, they receive 50 points
+            and some game-play change.
+        </font></string>
+
+</resources>
